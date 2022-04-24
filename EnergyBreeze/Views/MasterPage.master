@@ -5,11 +5,23 @@
 <html>
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <title>EnergyBreeze</title>
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
+    <link rel="icon" href="../Resources/Imagenes/Logo.ico" type="image/x-icon" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet">
+    <link href="../Content/estilos.css" rel="stylesheet">
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="#">Sobre Nosotros</a>
+            <a href="#">Como funciona</a>
+            <a href="#">Mas</a>
+        </nav>
+    </header>
     <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
@@ -17,5 +29,22 @@
         </asp:ContentPlaceHolder>
     </div>
     </form>
+    <footer>
+        <div class="Contenedor-footer">
+            <div class="Contenido-foo">
+                <h4>Número</h4>
+                <p>8209633</p>
+            </div>
+            <div class="Contenido-foo">
+                <h4>Email</h4>
+                <p>EnergyBreeze@gmail.com</p>
+            </div>
+            <div class="Contenido-foo">
+                <h4>Ubicación</h4>
+                <p>Colombia</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Energy Breeze </h2>
+    </footer>
 </body>
 </html>

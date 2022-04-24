@@ -6,7 +6,8 @@
     <input runat="server" type="text" class="form-control" id="R_cedula" />
     <br />
     <br />
-    <input runat="server" type="text" class="form-control" id="R_nombre" />
+    <input runat="server" type="password" class="form-control" id="R_nombre" />
     <input runat="server" type="submit" class="btn btn-primary" onserverclick="Btn_Continuar_Clic" />
 </asp:Content>
 
++
