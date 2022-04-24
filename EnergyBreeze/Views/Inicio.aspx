@@ -26,30 +26,30 @@
                 <div class="Galeria-port">
                     <div class="Imagen-port">
                         <img src="../Resources/Imagenes/Imagen1.jpg" alt="" />
-                        <div class="Hover-imagen">
+                        <div class="Hover-Galeria">
                             <img src="../Resources/Imagenes/Hover1.jpg" alt="" />
                             <p>Vereda de Madrid Cundinamarca</p>
                         </div>
                     </div>
                     <div class="Imagen-port">
-                        <img src="../Resources/Imagenes/Imagen1.jpg" alt="" />
-                        <div class="Hover-imagen">
+                        <img src="../Resources/Imagenes/Logo Normal.png" alt="" />
+                        <div class="Hover-Galeria">
                             <img src="../Resources/Imagenes/Hover1.jpg" alt="" />
-                            <p>Vereda de Madrid Cundinamarca</p>
+                            <p>Logo empresa</p>
                         </div>
                     </div>
                     <div class="Imagen-port">
-                        <img src="../Resources/Imagenes/Imagen1.jpg" alt="" />
-                        <div class="Hover-imagen">
+                        <img src="../Resources/Imagenes/Imagen2.jpg" alt="" />
+                        <div class="Hover-Galeria">
                             <img src="../Resources/Imagenes/Hover1.jpg" alt="" />
-                            <p>Vereda de Madrid Cundinamarca</p>
+                            <p>Turbina</p>
                         </div>
                     </div>
                     <div class="Imagen-port">
-                        <img src="../Resources/Imagenes/Imagen1.jpg" alt="" />
-                        <div class="Hover-imagen">
+                        <img src="../Resources/Imagenes/portada.jpg" alt="" />
+                        <div class="Hover-Galeria">
                             <img src="../Resources/Imagenes/Hover1.jpg" alt="" />
-                            <p>Vereda de Madrid Cundinamarca</p>
+                            <p>Paisaje</p>
                         </div>
                     </div>
                 </div>
@@ -69,5 +69,22 @@
             </div>
         </section>
     </main>
+    <footer>
+        <div class="Contenedor-footer">
+            <div class="Contenido-foo">
+                <h4>Número</h4>
+                <p>8209633</p>
+            </div>
+            <div class="Contenido-foo">
+                <h4>Email</h4>
+                <p>EnergyBreeze@gmail.com</p>
+            </div>
+            <div class="Contenido-foo">
+                <h4>Ubicación</h4>
+                <p>Colombia</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Energy Breeze </h2>
+    </footer>
 </asp:Content>
 
