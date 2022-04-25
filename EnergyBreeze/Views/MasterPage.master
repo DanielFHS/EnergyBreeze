@@ -32,8 +32,8 @@
                 </div>
                 <div class="col-3 text-center">
                     <ul class="login">
-                        <li><a href="#">Registrar</a></li>
-                        <li><a href="#">Ingresar</a></li>
+                        <li><a href="Registro.aspx">Registrar</a></li>
+                        <li><a href="InicioSesion.aspx">Ingresar</a></li>
                     </ul>
                 </div>
             </div>

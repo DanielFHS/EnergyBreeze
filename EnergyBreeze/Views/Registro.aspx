@@ -2,12 +2,74 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <input runat="server" type="text" class="form-control" id="R_cedula" />
-    <br />
-    <br />
-    <input runat="server" type="password" class="form-control" id="R_nombre" />
-    <input runat="server" type="submit" class="btn btn-primary" onserverclick="Btn_Continuar_Clic" />
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="container">
+        <div class="row border-bottom text-center">
+            <div class="col-6">Registro</div>
+        </div>
+        <div class="row border-bottom">
+            <div class="col-3">Cédula</div>
+            <div class="col-3">
+                <input type="text" class="form-control" runat="server" id="R_Cedula" required/>
+            </div>
+        </div>
+        <br />
+        <div class="row border-bottom">
+            <div class="col-3">Nombre</div>
+            <div class="col-3">
+                <input type="text" class="form-control" runat="server" id="R_Nom" required/>
+            </div>
+        </div>
+        <br />
+        <div class="row border-bottom">
+            <div class="col-3">Apellido</div>
+            <div class="col-3">
+                <input type="text" class="form-control" runat="server" id="R_Apellido" required/>
+            </div>
+        </div>
+        <br />
+        <div class="row border-bottom">
+            <div class="col-3">Correo</div>
+            <div class="col-3">
+                <input type="text" class="form-control" runat="server" id="R_Correo" required/>
+            </div>
+        </div>
+        <br />
+        <div class="row border-bottom">
+            <div class="col-3">Celular</div>
+            <div class="col-3">
+                <input type="text" class="form-control" runat="server" id="R_Celular" required/>
+            </div>
+        </div>
+        <br />
+        <div class="row border-bottom">
+            <div class="col-3">Teléfono Fijo</div>
+            <div class="col-3">
+                <input type="text" class="form-control" runat="server" id="R_Tel" />
+            </div>
+        </div>
+        <br />
+        <div class="row border-bottom">
+            <div class="col-3">Fecha de Nacimiento</div>
+            <div class="col-3">
+                <input type="date" class="form-control" runat="server" id="R_Fecha" required/>
+            </div>
+        </div>
+        <br />
+        <div class="row border-bottom">
+            <div class="col-3">Usuario</div>
+            <div class="col-3">
+                <input type="text" class="form-control" runat="server" id="R_Usuario" required/>
+            </div>
+        </div>
+        <br />
+        <div class="row border-bottom">
+            <div class="col-3">Contraseña</div>
+            <div class="col-3">
+                <input type="text" class="form-control" runat="server" id="R_Contraseña" required/>
+            </div>
+        </div>
+        <br />
+    </div>
+    <input type="submit" runat="server" onserverclick="Btn_Registrar" class="btn btn-success" value="Registrar" />
 </asp:Content>
-
-+

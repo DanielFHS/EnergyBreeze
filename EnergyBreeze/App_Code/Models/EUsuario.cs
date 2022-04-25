@@ -12,8 +12,6 @@ public class EUsuario
     public string Nombre { get; set; }
     [Column("apellidos")]
     public string Apellido { get; set; }
-    [Column("fecha_nacimiento")]
-    public string Fecha_Nac { get; set; }
     [Column("celular")]
     public string Celular { get; set; }
     [Column("telefono_fijo")]
@@ -24,4 +22,6 @@ public class EUsuario
     public string Usuario { get; set; }
     [Column("contrasena")]
     public string Contraseña { get; set; }
+    [Column("fecha_nacimiento")]
+    public DateTime Fecha { get; set; }
 }
