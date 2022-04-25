@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'open sans';
+    font-family: 'Lucida Bright';
 }
 
 .Contenedor {
@@ -28,25 +28,32 @@ header {
     width: 100%;
     height: 300px;
     background: #a8ff78;
-    background: -webkit-linear-gradient(to right, hrgb(120 255 214 / 0,50), hrgb(168 255 120 / 0,50));
-    background: linear-gradient(to right, hrgb(120 255 214 / 0,50), hrgb(168 255 120 / 0,50));
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8ff7880, #78ffd680);
+    background: linear-gradient(to right, #a8ff7880, #78ffd680),url(../Resources/Imagenes/portada.jpg);
+    /*background-image: url(../Resources/Imagenes/portada.jpg);*/
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
 }
+
+.logo > img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    display: flex;
+}
+
 .menu{
-    font-size: 30px;
+    font-size: 20px;
     list-style: none;
     padding: 0;
-    background: #a5ff73;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
 }
 
 .menu li a{
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 20px;
     display: block;
 }
@@ -57,39 +64,31 @@ header {
 }
 
 .menu li a:hover{
-    background: #fef915;
+    background: #aefbb4;
 }
 
-/*nav {
+.login {
+    font-size: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.login li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+.login li {
+    display: inline-block;
     text-align: center;
-    padding: 30px 50px 0 0;
 }
 
-    nav > a {
-        color: #465244;
-        font-weight: 300;
-        font-size: 30px;
-        text-decoration: none;
-        margin-right: 10px;
-    }
+.login a:hover {
+    background: #aefbb4;
+}
 
-        nav > a:hover {
-            text-decoration: underline;
-        }
-
-    nav.Login {
-        text-align: right;
-        padding: 30px 50px 0 0;
-    }
-    nav > Login-cont {
-        text-align: left;
-        color: #465244;
-        font-weight: 300;
-        font-size: 30px;
-        text-decoration: none;
-        margin-right: 10px;
-    }
-*/
 header .textos-header {
     display: flex;
     height: 130px;
@@ -116,10 +115,74 @@ header .textos-header {
     bottom: 0;
     width: 100%;
 }
+/*RENOVANDO EL USO DE ENERGÍA EÓLICA*/
 
 .Vortex-Gif {
     display: flex;
     justify-content: space-evenly;
+}
+
+
+ul  li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.slider {
+    width: 24%;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    transition: opacity .5s;
+}
+
+    ul.slider li img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+ul.slider li:first-child{
+    opacity: 0;
+}
+
+ul.slider li:target{
+    opacity: 1;
+}
+
+.puntos{
+    text-align: center;
+    margin: 20px;
+}
+
+.puntos li{
+    display: inline-block;
+    text-align: center;
+}
+
+.puntos li a{
+    display: inline-block;
+    color: #ccc;
+    text-decoration: none;
+    background-color: gray;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
 }
 
 .sobre nosotros .Contenido-textos {

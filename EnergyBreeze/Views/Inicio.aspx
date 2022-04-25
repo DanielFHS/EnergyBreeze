@@ -15,8 +15,38 @@
             <div class="Vortex-Gif">
                 <img src="../Resources/Imagenes/Vortex.png" alt="" />
                 <div class="Contenido-textos">
-                    <p>Energy Breeze es un proyecto que utiliza la energia del viento....</p>
-                    <p>Contenido interactivo</p>
+                    <h1>//RENOVANDO EL USO DE ENERGÍA EÓLICA</h1>
+                    <p>Energy Breeze es un proyecto que surge para aprovechar la energía del viento...</p>
+                    <ul class="slider">
+                        <li id="slider1">
+                            <img src="../Resources/Imagenes/Hover.png" alt="" />
+                            <h2>ENERGÍA LIMPIA</h2>
+                            <p>Por el mecanismo que utiliza la turbina a la hora de recoger la energía con movimientos osilatorios...</p>
+                        </li>
+                        <li id="slider2">
+                            <img src="../Resources/Imagenes/Hover.png" alt="" />
+                            <h2>VALORAR AL MEDIO AMBIENTE</h2>
+                            <p>Por el mecanismo que utiliza la turbina a la hora de recoger la energía con movimientos osilatorios...</p>
+                        </li>
+                        <li id="slider3">
+                            <img src="../Resources/Imagenes/Hover.png" alt="" />
+                            <h2>ADAPTIVIDAD</h2>
+                            <p>Por el mecanismo que utiliza la turbina a la hora de recoger la energía con movimientos osilatorios...</p>
+                        </li>
+                        <li id="slider4">
+                            <img src="../Resources/Imagenes/Hover.png" alt="" />
+                            <h2>DESARROLLO</h2>
+                            <p>Por el mecanismo que utiliza la turbina a la hora de recoger la energía con movimientos osilatorios...</p>
+                        </li>
+                    </ul>
+                    <ul class="puntos">
+                        <li>
+                            <a href="#slider1"></a>
+                            <a href="#slider2"></a>
+                            <a href="#slider3"></a>
+                            <a href="#slider4"></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>

@@ -14,23 +14,30 @@
     <script src="../Scripts/bootstrap.min.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
-<body>
-    
+<body> 
     <header>
-        <ul class="menu">
-            <li><a href="#">Sobre Nosotros</a></li>
-            <li><a href="#">Como Funciona</a></li>
-            <li><a href="#">Más</a></li>
-        </ul>
-        <!--<nav>
-            <a href="#">| Sobre Nosotros |</a>
-            <a href="#">Como funciona |</a>
-            <a href="#">Mas |</a>
-            <nav class="Login">
-                <a class="Login-cont" href="#">| Registrar |</a>
-                <a class="Login-cont" href="#">| Ingresar |</a>
-            </nav>
-        </nav>!-->
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="logo">
+                        <img src="../Resources/Imagenes/Energy Breeze Logo.png" alt="" />
+                    </div>
+                </div>
+                <div class="col-7 text-center">
+                    <ul class="menu">
+                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="#">Como Funciona</a></li>
+                        <li><a href="#">Más</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 text-center">
+                    <ul class="login">
+                        <li><a href="#">Registrar</a></li>
+                        <li><a href="#">Ingresar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
     <form id="form1" runat="server">
     <div>
