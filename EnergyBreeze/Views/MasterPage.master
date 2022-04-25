@@ -15,12 +15,22 @@
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
+    
     <header>
-        <nav>
-            <a href="#">Sobre Nosotros</a>
-            <a href="#">Como funciona</a>
-            <a href="#">Mas</a>
-        </nav>
+        <ul class="menu">
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Como Funciona</a></li>
+            <li><a href="#">Más</a></li>
+        </ul>
+        <!--<nav>
+            <a href="#">| Sobre Nosotros |</a>
+            <a href="#">Como funciona |</a>
+            <a href="#">Mas |</a>
+            <nav class="Login">
+                <a class="Login-cont" href="#">| Registrar |</a>
+                <a class="Login-cont" href="#">| Ingresar |</a>
+            </nav>
+        </nav>!-->
     </header>
     <form id="form1" runat="server">
     <div>

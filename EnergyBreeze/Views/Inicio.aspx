@@ -63,7 +63,6 @@
                         <img src="" alt="" />
                         <h3>Nombre</h3>
                         <p>Lorem</p>
-
                     </div>
                 </div>
             </div>
