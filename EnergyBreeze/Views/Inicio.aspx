@@ -17,28 +17,30 @@
                 <div class="Contenido-textos">
                     <h1>//RENOVANDO EL USO DE ENERGÍA EÓLICA</h1>
                     <p>Energy Breeze es un proyecto que surge para aprovechar la energía del viento...</p>
-                    <ul class="slider">
-                        <li id="slider1">
-                            <img src="../Resources/Imagenes/Hover.png" alt="" />
-                            <h2>ENERGÍA LIMPIA</h2>
-                            <p>Por el mecanismo que utiliza la turbina a la hora de recoger la energía con movimientos osilatorios...</p>
-                        </li>
-                        <li id="slider2">
-                            <img src="../Resources/Imagenes/Hover.png" alt="" />
-                            <h2>VALORAR AL MEDIO AMBIENTE</h2>
-                            <p>Por el mecanismo que utiliza la turbina a la hora de recoger la energía con movimientos osilatorios...</p>
-                        </li>
-                        <li id="slider3">
-                            <img src="../Resources/Imagenes/Hover.png" alt="" />
-                            <h2>ADAPTIVIDAD</h2>
-                            <p>Por el mecanismo que utiliza la turbina a la hora de recoger la energía con movimientos osilatorios...</p>
-                        </li>
-                        <li id="slider4">
-                            <img src="../Resources/Imagenes/Hover.png" alt="" />
-                            <h2>DESARROLLO</h2>
-                            <p>Por el mecanismo que utiliza la turbina a la hora de recoger la energía con movimientos osilatorios...</p>
-                        </li>
-                    </ul>
+                    <div class="container">
+                        <ul class="slider">
+                            <li id="slider1">
+                                <img src="../Resources/Imagenes/Hover.png" alt="" />
+                                <h2>ENERGÍA LIMPIA</h2>
+                                <p>Por el mecanismo que utiliza la turbina a la hora de recoger la energía con movimientos osilatorios...</p>
+                            </li>
+                            <li id="slider2">
+                                <img src="../Resources/Imagenes/Hover.png" alt="" />
+                                <h2>VALORAR AL MEDIO AMBIENTE</h2>
+                                <p>Por el mecanismo que utiliza la turbina a la hora de recoger la energía con movimientos osilatorios...</p>
+                            </li>
+                            <li id="slider3">
+                                <img src="../Resources/Imagenes/Hover.png" alt="" />
+                                <h2>ADAPTIVIDAD</h2>
+                                <p>Por el mecanismo que utiliza la turbina a la hora de recoger la energía con movimientos osilatorios...</p>
+                            </li>
+                            <li id="slider4">
+                                <img src="../Resources/Imagenes/Hover.png" alt="" />
+                                <h2>DESARROLLO</h2>
+                                <p>Por el mecanismo que utiliza la turbina a la hora de recoger la energía con movimientos osilatorios...</p>
+                            </li>
+                        </ul>
+                    </div>
                     <ul class="puntos">
                         <li>
                             <a href="#slider1"></a>
@@ -62,7 +64,7 @@
                         </div>
                     </div>
                     <div class="Imagen-port">
-                        <img src="../Resources/Imagenes/Logo Normal.png" alt="" />
+                        <img src="../Resources/Imagenes/Energy Breeze Logo.png" alt="" />
                         <div class="Hover-Galeria">
                             <img src="../Resources/Imagenes/Hover1.jpg" alt="" />
                             <p>Logo empresa</p>
