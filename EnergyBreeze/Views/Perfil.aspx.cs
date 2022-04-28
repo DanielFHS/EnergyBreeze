@@ -31,6 +31,7 @@ public partial class Views_Perfil : System.Web.UI.Page
     protected void Btn_Editar(object sender, EventArgs e)
     {
         EUsuario usuario = new UsuarioDAO().ObtenerUsuarios().Where(x => x.Cedula.Equals(cedula.Value)).FirstOrDefault();
+        usuario.Cedula = cedula.Value;
         usuario.Nombre = nombre2.Value;
         usuario.Apellido = apellido2.Value;
         usuario.Celular = celular2.Value;
@@ -38,6 +39,6 @@ public partial class Views_Perfil : System.Web.UI.Page
         usuario.Usuario = user2.Value;
         usuario.Contraseña = cont2.Value;
         new UsuarioDAO().ActualizarUsuario(usuario);
-        this.ClientScript.RegisterClientScriptBlock(this.GetType(), "", "<script type='text/javascript'>alert('Datos editados exitosamente');window.location.href=\"Inicio.aspx\";</script>");
+        this.ClientScript.RegisterClientScriptBlock(this.GetType(), "", "<script type='text/javascript'>alert('Datos Actualizados');window.location.href=\"Perfil.aspx\";</script>");
     }
 }
