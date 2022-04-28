@@ -66,7 +66,7 @@
         <div class="row border-bottom">
             <div class="col-3">Contraseña</div>
             <div class="col-3">
-                <input type="text" class="form-control" runat="server" id="R_Contraseña" required/>
+                <input type="password" class="form-control" runat="server" id="R_Contraseña" required/>
             </div>
         </div>
         <br />

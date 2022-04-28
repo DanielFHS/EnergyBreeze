@@ -31,4 +31,13 @@ public class UsuarioDAO
             db.SaveChanges();
         }
     }
+    public void ActualizarUsuario(EUsuario usuario)
+    {
+        using (var db = new Mapeo())
+        {
+            db.Usuario.Attach(usuario);
+            db.Entry(usuario).State = System.Data.Entity.EntityState.Modified;
+            db.SaveChanges();
+        }
+    }
 }
