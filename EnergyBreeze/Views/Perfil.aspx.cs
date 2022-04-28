@@ -11,7 +11,7 @@ public partial class Views_Perfil : System.Web.UI.Page
     {
         if (!IsPostBack)
         {
-            EUsuario usuario = new UsuarioDAO().ObtenerUsuarios().Where(x => x.Usuario.Equals(((EUsuario)Session["usuario"]).Usuario) && x.Contraseña.Equals(((EUsuario)Session["usuario"]).Contraseña)).FirstOrDefault();
+            EUsuario usuario = new UsuarioDAO().ObtenerUsuarios().Where(x => x.Cedula.Equals(((EUsuario)Session["usuario"]).Cedula)).FirstOrDefault();
             cedula.Value = usuario.Cedula;
             nombre.Value = usuario.Nombre;
             nombre2.Value = usuario.Nombre;
