@@ -16,6 +16,7 @@ public partial class Views_MasterPage : System.Web.UI.MasterPage
         else
         {
             MV_Perfil.ActiveViewIndex = 1;
+            MV_Cotizacion.ActiveViewIndex = 0;
         }
     }
     protected void Cerrar_Sesion(object sender, EventArgs e)
