@@ -26,7 +26,7 @@
                 <div class="col-7 text-center">
                     <ul class="menu">
                         <li><a href="Inicio.aspx">Inicio</a></li>
-                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="SobreNosotros.aspx">Sobre Nosotros</a></li>
                         <li><a href="#">Como Funciona</a></li>
                         <asp:MultiView ID="MV_Cotizacion" runat="server">
                             <asp:View ID="MV_CotActiva" runat="server">

@@ -31,7 +31,7 @@
         <div class="row border-bottom">
             <div class="col-3">Correo</div>
             <div class="col-3">
-                <input type="text" class="form-control" runat="server" id="R_Correo" required />
+                <input type="text" class="form-control" runat="server" id="R_Correo" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Debe tener un @ para ser un correo válido"/>
             </div>
         </div>
         <br />
