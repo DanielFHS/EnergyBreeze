@@ -3,10 +3,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <header>
+    <header class="about_us">
         <section class="headerSN">
             <div class="container">
-                <h1>Sobre Nosotros</h1>
+                <h1>SOBRE NOSOTROS</h1>
             </div>
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.22,109.04 C551.12,-9.38 657.22,-29.10 500.00,49.99 L499.77,151.48 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>

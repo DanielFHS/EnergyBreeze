@@ -15,7 +15,7 @@
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
-    <header>
+    <header class="master">
         <div class="container">
             <div class="row">
                 <div class="col-2">
@@ -30,7 +30,7 @@
                         <li><a href="#">Como Funciona</a></li>
                         <asp:MultiView ID="MV_Cotizacion" runat="server">
                             <asp:View ID="MV_CotActiva" runat="server">
-                                <li><a href="#">Cotizar</a></li>
+                                <li><a href="Cotizacion.aspx">Cotizar</a></li>
                             </asp:View>
                         </asp:MultiView>
                     </ul>

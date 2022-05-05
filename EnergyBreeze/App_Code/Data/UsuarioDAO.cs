@@ -40,4 +40,11 @@ public class UsuarioDAO
             db.SaveChanges();
         }
     }
+    public EUsuario ObtenerUsuario(string id)
+    {
+        using (var db = new Mapeo())
+        {
+            return db.Usuario.Where(x => x.Cedula.Equals(id)).FirstOrDefault();
+        }
+    }
 }
