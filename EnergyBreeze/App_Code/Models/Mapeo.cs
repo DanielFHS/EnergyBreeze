@@ -14,9 +14,6 @@ public class Mapeo : DbContext
         base.OnModelCreating(modelBuilder);
     }
     public virtual DbSet<EUsuario> Usuario { get; set; }
-    public virtual DbSet<ERol> Rol { get; set; }
     public virtual DbSet<EMetodo_Pago> Metodo_Pago { get; set; }
-    public virtual DbSet<ECotizacion> Cotizacion { get; set; }
     public virtual DbSet<EPqr> Pqr { get; set; }
-    public virtual DbSet<EUsuarioCotizacion> UsuarioCotizacion { get; set; }
 }
