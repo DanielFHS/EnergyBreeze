@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-public class Metodo_PagoDAO
+public class CotizacionDAO
 {
-    public EMetodo_Pago ObtenerMetodo (int id)
+    public void AgregarCotizacion(ECotizacion cotizacion)
     {
         using (var db = new Mapeo())
         {
-            return db.Metodo_Pago.Where(x => x.Id.Equals(id)).FirstOrDefault();
+            db.Cotizacion.Add(cotizacion);
+            db.SaveChanges();
         }
     }
 }

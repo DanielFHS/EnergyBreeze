@@ -16,4 +16,6 @@ public class Mapeo : DbContext
     public virtual DbSet<EUsuario> Usuario { get; set; }
     public virtual DbSet<EMetodo_Pago> Metodo_Pago { get; set; }
     public virtual DbSet<EPqr> Pqr { get; set; }
+    public virtual DbSet<ETurbina> Turbina { get; set; }
+    public virtual DbSet<ECotizacion> Cotizacion { get; set; }
 }
